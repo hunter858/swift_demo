@@ -28,7 +28,7 @@ class demo1ViewControl: UIViewController {
         setUpSubViews();
         
         /* 初始化webview*/
-        setUpWebView();
+        //setUpWebView();
     
         
         
