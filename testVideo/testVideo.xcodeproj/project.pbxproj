@@ -7,107 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C83ABB23068C9A008CBFC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C83ABA23068C9A008CBFC2 /* AppDelegate.m */; };
-		00C83ABE23068C9A008CBFC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C83ABD23068C9A008CBFC2 /* ViewController.m */; };
-		00C83AC123068C9A008CBFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C83ABF23068C9A008CBFC2 /* Main.storyboard */; };
-		00C83AC323068C9B008CBFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C83AC223068C9B008CBFC2 /* Assets.xcassets */; };
-		00C83AC623068C9B008CBFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C83AC423068C9B008CBFC2 /* LaunchScreen.storyboard */; };
-		00C83AC923068C9B008CBFC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C83AC823068C9B008CBFC2 /* main.m */; };
-		0DF4ED425B3054E4464B01D1 /* Pods_testVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E247CB6002484F99572BA1 /* Pods_testVideo.framework */; };
+		00C51ECB23372BC200ED92AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C51ECA23372BC200ED92AC /* AppDelegate.m */; };
+		00C51ECE23372BC200ED92AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C51ECD23372BC200ED92AC /* ViewController.m */; };
+		00C51ED123372BC200ED92AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C51ECF23372BC200ED92AC /* Main.storyboard */; };
+		00C51ED323372BC500ED92AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C51ED223372BC500ED92AC /* Assets.xcassets */; };
+		00C51ED623372BC500ED92AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C51ED423372BC500ED92AC /* LaunchScreen.storyboard */; };
+		00C51ED923372BC500ED92AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C51ED823372BC500ED92AC /* main.m */; };
+		9A0A589686DDCE892C97C53E /* Pods_testVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A75B2399C46D5702481B19 /* Pods_testVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00C83AB623068C9A008CBFC2 /* testVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C83AB923068C9A008CBFC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		00C83ABA23068C9A008CBFC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		00C83ABC23068C9A008CBFC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		00C83ABD23068C9A008CBFC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		00C83AC023068C9A008CBFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00C83AC223068C9B008CBFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00C83AC523068C9B008CBFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00C83AC723068C9B008CBFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00C83AC823068C9B008CBFC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		409BE10EBDD361DC7937ED53 /* Pods-testVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVideo.debug.xcconfig"; path = "Target Support Files/Pods-testVideo/Pods-testVideo.debug.xcconfig"; sourceTree = "<group>"; };
-		55E247CB6002484F99572BA1 /* Pods_testVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BC1AA38305B96B467FCAE21 /* Pods-testVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVideo.release.xcconfig"; path = "Target Support Files/Pods-testVideo/Pods-testVideo.release.xcconfig"; sourceTree = "<group>"; };
+		00C51EC623372BC200ED92AC /* testVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C51EC923372BC200ED92AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00C51ECA23372BC200ED92AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00C51ECC23372BC200ED92AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00C51ECD23372BC200ED92AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00C51ED023372BC200ED92AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C51ED223372BC500ED92AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C51ED523372BC500ED92AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C51ED723372BC500ED92AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C51ED823372BC500ED92AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CE0FD2E618E28949A0C2C7 /* Pods-testVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVideo.debug.xcconfig"; path = "Target Support Files/Pods-testVideo/Pods-testVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A75B2399C46D5702481B19 /* Pods_testVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AD7C27D9CACBAA22FFA751 /* Pods-testVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVideo.release.xcconfig"; path = "Target Support Files/Pods-testVideo/Pods-testVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C83AB323068C9A008CBFC2 /* Frameworks */ = {
+		00C51EC323372BC200ED92AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF4ED425B3054E4464B01D1 /* Pods_testVideo.framework in Frameworks */,
+				9A0A589686DDCE892C97C53E /* Pods_testVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C83AAD23068C9A008CBFC2 = {
+		00C51EBD23372BC100ED92AC = {
 			isa = PBXGroup;
 			children = (
-				00C83AB823068C9A008CBFC2 /* testVideo */,
-				00C83AB723068C9A008CBFC2 /* Products */,
-				BD8E4FD3DF0BC2858F57ACC2 /* Pods */,
-				DEBBFCCC5038CB6B14A947D1 /* Frameworks */,
+				00C51EC823372BC200ED92AC /* testVideo */,
+				00C51EC723372BC200ED92AC /* Products */,
+				AC10A81695E59C7697EE7075 /* Pods */,
+				4023CAC07B03B20DD2369378 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		00C83AB723068C9A008CBFC2 /* Products */ = {
+		00C51EC723372BC200ED92AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00C83AB623068C9A008CBFC2 /* testVideo.app */,
+				00C51EC623372BC200ED92AC /* testVideo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00C83AB823068C9A008CBFC2 /* testVideo */ = {
+		00C51EC823372BC200ED92AC /* testVideo */ = {
 			isa = PBXGroup;
 			children = (
-				00C83AB923068C9A008CBFC2 /* AppDelegate.h */,
-				00C83ABA23068C9A008CBFC2 /* AppDelegate.m */,
-				00C83ABC23068C9A008CBFC2 /* ViewController.h */,
-				00C83ABD23068C9A008CBFC2 /* ViewController.m */,
-				00C83ABF23068C9A008CBFC2 /* Main.storyboard */,
-				00C83AC223068C9B008CBFC2 /* Assets.xcassets */,
-				00C83AC423068C9B008CBFC2 /* LaunchScreen.storyboard */,
-				00C83AC723068C9B008CBFC2 /* Info.plist */,
-				00C83AC823068C9B008CBFC2 /* main.m */,
+				00C51EC923372BC200ED92AC /* AppDelegate.h */,
+				00C51ECA23372BC200ED92AC /* AppDelegate.m */,
+				00C51ECC23372BC200ED92AC /* ViewController.h */,
+				00C51ECD23372BC200ED92AC /* ViewController.m */,
+				00C51ECF23372BC200ED92AC /* Main.storyboard */,
+				00C51ED223372BC500ED92AC /* Assets.xcassets */,
+				00C51ED423372BC500ED92AC /* LaunchScreen.storyboard */,
+				00C51ED723372BC500ED92AC /* Info.plist */,
+				00C51ED823372BC500ED92AC /* main.m */,
 			);
 			path = testVideo;
 			sourceTree = "<group>";
 		};
-		BD8E4FD3DF0BC2858F57ACC2 /* Pods */ = {
+		4023CAC07B03B20DD2369378 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				409BE10EBDD361DC7937ED53 /* Pods-testVideo.debug.xcconfig */,
-				7BC1AA38305B96B467FCAE21 /* Pods-testVideo.release.xcconfig */,
+				F3A75B2399C46D5702481B19 /* Pods_testVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC10A81695E59C7697EE7075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CE0FD2E618E28949A0C2C7 /* Pods-testVideo.debug.xcconfig */,
+				F6AD7C27D9CACBAA22FFA751 /* Pods-testVideo.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DEBBFCCC5038CB6B14A947D1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				55E247CB6002484F99572BA1 /* Pods_testVideo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00C83AB523068C9A008CBFC2 /* testVideo */ = {
+		00C51EC523372BC200ED92AC /* testVideo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00C83ACC23068C9B008CBFC2 /* Build configuration list for PBXNativeTarget "testVideo" */;
+			buildConfigurationList = 00C51EDC23372BC500ED92AC /* Build configuration list for PBXNativeTarget "testVideo" */;
 			buildPhases = (
-				59C725223917AD7462604D60 /* [CP] Check Pods Manifest.lock */,
-				00C83AB223068C9A008CBFC2 /* Sources */,
-				00C83AB323068C9A008CBFC2 /* Frameworks */,
-				00C83AB423068C9A008CBFC2 /* Resources */,
-				EF9759B09D7F9FD9F0D2D184 /* [CP] Embed Pods Frameworks */,
+				E8833BB369F66F3527DCE8BC /* [CP] Check Pods Manifest.lock */,
+				00C51EC223372BC200ED92AC /* Sources */,
+				00C51EC323372BC200ED92AC /* Frameworks */,
+				00C51EC423372BC200ED92AC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,24 +114,24 @@
 			);
 			name = testVideo;
 			productName = testVideo;
-			productReference = 00C83AB623068C9A008CBFC2 /* testVideo.app */;
+			productReference = 00C51EC623372BC200ED92AC /* testVideo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00C83AAE23068C9A008CBFC2 /* Project object */ = {
+		00C51EBE23372BC100ED92AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = edz;
 				TargetAttributes = {
-					00C83AB523068C9A008CBFC2 = {
+					00C51EC523372BC200ED92AC = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 00C83AB123068C9A008CBFC2 /* Build configuration list for PBXProject "testVideo" */;
+			buildConfigurationList = 00C51EC123372BC100ED92AC /* Build configuration list for PBXProject "testVideo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,31 +139,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 00C83AAD23068C9A008CBFC2;
-			productRefGroup = 00C83AB723068C9A008CBFC2 /* Products */;
+			mainGroup = 00C51EBD23372BC100ED92AC;
+			productRefGroup = 00C51EC723372BC200ED92AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00C83AB523068C9A008CBFC2 /* testVideo */,
+				00C51EC523372BC200ED92AC /* testVideo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00C83AB423068C9A008CBFC2 /* Resources */ = {
+		00C51EC423372BC200ED92AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C83AC623068C9B008CBFC2 /* LaunchScreen.storyboard in Resources */,
-				00C83AC323068C9B008CBFC2 /* Assets.xcassets in Resources */,
-				00C83AC123068C9A008CBFC2 /* Main.storyboard in Resources */,
+				00C51ED623372BC500ED92AC /* LaunchScreen.storyboard in Resources */,
+				00C51ED323372BC500ED92AC /* Assets.xcassets in Resources */,
+				00C51ED123372BC200ED92AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		59C725223917AD7462604D60 /* [CP] Check Pods Manifest.lock */ = {
+		E8833BB369F66F3527DCE8BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,51 +185,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EF9759B09D7F9FD9F0D2D184 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testVideo/Pods-testVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testVideo/Pods-testVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testVideo/Pods-testVideo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00C83AB223068C9A008CBFC2 /* Sources */ = {
+		00C51EC223372BC200ED92AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C83ABE23068C9A008CBFC2 /* ViewController.m in Sources */,
-				00C83AC923068C9B008CBFC2 /* main.m in Sources */,
-				00C83ABB23068C9A008CBFC2 /* AppDelegate.m in Sources */,
+				00C51ECE23372BC200ED92AC /* ViewController.m in Sources */,
+				00C51ED923372BC500ED92AC /* main.m in Sources */,
+				00C51ECB23372BC200ED92AC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00C83ABF23068C9A008CBFC2 /* Main.storyboard */ = {
+		00C51ECF23372BC200ED92AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00C83AC023068C9A008CBFC2 /* Base */,
+				00C51ED023372BC200ED92AC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		00C83AC423068C9B008CBFC2 /* LaunchScreen.storyboard */ = {
+		00C51ED423372BC500ED92AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00C83AC523068C9B008CBFC2 /* Base */,
+				00C51ED523372BC500ED92AC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -238,7 +220,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00C83ACA23068C9B008CBFC2 /* Debug */ = {
+		00C51EDA23372BC500ED92AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +279,7 @@
 			};
 			name = Debug;
 		};
-		00C83ACB23068C9B008CBFC2 /* Release */ = {
+		00C51EDB23372BC500ED92AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,9 +332,9 @@
 			};
 			name = Release;
 		};
-		00C83ACD23068C9B008CBFC2 /* Debug */ = {
+		00C51EDD23372BC500ED92AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 409BE10EBDD361DC7937ED53 /* Pods-testVideo.debug.xcconfig */;
+			baseConfigurationReference = A3CE0FD2E618E28949A0C2C7 /* Pods-testVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -367,9 +349,9 @@
 			};
 			name = Debug;
 		};
-		00C83ACE23068C9B008CBFC2 /* Release */ = {
+		00C51EDE23372BC500ED92AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BC1AA38305B96B467FCAE21 /* Pods-testVideo.release.xcconfig */;
+			baseConfigurationReference = F6AD7C27D9CACBAA22FFA751 /* Pods-testVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -387,25 +369,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00C83AB123068C9A008CBFC2 /* Build configuration list for PBXProject "testVideo" */ = {
+		00C51EC123372BC100ED92AC /* Build configuration list for PBXProject "testVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C83ACA23068C9B008CBFC2 /* Debug */,
-				00C83ACB23068C9B008CBFC2 /* Release */,
+				00C51EDA23372BC500ED92AC /* Debug */,
+				00C51EDB23372BC500ED92AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00C83ACC23068C9B008CBFC2 /* Build configuration list for PBXNativeTarget "testVideo" */ = {
+		00C51EDC23372BC500ED92AC /* Build configuration list for PBXNativeTarget "testVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00C83ACD23068C9B008CBFC2 /* Debug */,
-				00C83ACE23068C9B008CBFC2 /* Release */,
+				00C51EDD23372BC500ED92AC /* Debug */,
+				00C51EDE23372BC500ED92AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00C83AAE23068C9A008CBFC2 /* Project object */;
+	rootObject = 00C51EBE23372BC100ED92AC /* Project object */;
 }

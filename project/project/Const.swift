@@ -9,8 +9,11 @@
 import Foundation
 import UIKit
 
-let ScreenHeight = UIScreen.main.bounds.size.height
-let ScreenWidth = UIScreen.main.bounds.size.width
-let SafeTopHeight = UIApplication.shared.statusBarFrame.height
-let SafeBottomHeight = (UIApplication.shared.statusBarFrame.height==44) ? 0 : 0
+public let marginLeft = 10;
+
+public let marginRight = -10;
+
+public let marginTop = 10;
+
+public let marginBottom = -10;
 

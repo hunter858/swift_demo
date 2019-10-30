@@ -4,5 +4,10 @@ target 'project' do
 
 pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'Moya'
 pod 'SnapKit'
+pod 'RxSwift'
+pod 'SDWebImage'
+pod 'SwiftTheme'
+
 end

@@ -2,6 +2,10 @@ use_frameworks!
 platform :ios, '8.0'
 target 'testVideo' do
 
-pod 'WMPlayer'
-pod 'WMPlayer',  :git => 'https://github.com/zhengwenming/WMPlayer.git'
+  pod 'RxSwift', '4.5.0'
+  pod 'RxCocoa', '4.5.0'
+  pod 'Moya/RxSwift', '11.0.2'
+  pod 'Kingfisher', '4.9.0'
+  pod 'SnapKit', '4.0.1'
+  
 end

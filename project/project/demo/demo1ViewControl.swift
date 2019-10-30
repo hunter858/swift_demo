@@ -30,7 +30,8 @@ class demo1ViewControl: UIViewController {
         /* 初始化webview*/
         //setUpWebView();
     
-        
+        getRequest();
+        postRequest();
         
     
         
@@ -98,17 +99,49 @@ class demo1ViewControl: UIViewController {
     
     func getRequest(){
         
-        
+        /* 1. 基础版*/
         Alamofire.request("https://httpbin.org/get").response { (DefaultDataResponse) in
-            print("Request: \(DefaultDataResponse.request)")
-            print("Response: \(DefaultDataResponse.response)")
-            print("Error: \(DefaultDataResponse.error)")
+            print("Request: \(String(describing: DefaultDataResponse.request))")
+            print("Response: \(String(describing: DefaultDataResponse.response))")
+            print("Error: \(String(describing: DefaultDataResponse.error))")
+        }
+        
+        /*2. */
+        
+        Alamofire.request("https://httpbin.org/get")
+        .responseString { (Response) in
+            
+            print("Response String: \(Response.result.value)")
+        }.responseJSON { (Response) in
+            print("Response JSON: \(Response.result.value)")
         }
         
     }
     
     func postRequest(){
         
+        let pramars :Parameters = [
+            "food":"apple",
+            "water":"white",
+            "list":["x":1,"y":2,"z":3]
+        ]
+        
+        Alamofire.request("https://httpbin.org/post",method: .post,parameters: pramars).responseJSON { (DataResponse) in
+            print("Response String: \(DataResponse.result.value)")
+        }
+    }
+    
+    
+    /* 自定义请求头*/
+    
+    func customerHeader(){
+        let headers: HTTPHeaders=[
+            "Authorization": "Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==",
+            "Accept": "application/json"
+        ]
+        Alamofire.request("https://httpbin.org/headers",headers:headers).responseJSON { (DataResponse) in
+            
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

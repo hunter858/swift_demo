@@ -15,7 +15,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        self.setupView()
+
         self.loadData();
         self.addTableView();
     }
@@ -75,7 +75,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let demo1:demo1ViewControl = demo1ViewControl()
+        let _:demo1ViewControl = demo1ViewControl()
         
         let ObjectModel = self.dataSource[indexPath.row];
         let Control :UIViewController =  ObjectModel["control"] as? UIViewController ?? UIViewController.init();
