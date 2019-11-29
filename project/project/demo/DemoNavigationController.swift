@@ -14,8 +14,10 @@ class CustomerNavigationController :UINavigationController{
         super.viewDidLoad()
         navigationBar.isTranslucent = false;
         let navigationBar = UINavigationBar.appearance()
-        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black, NSAttributedString.Key.font : UIFont.systemFont(ofSize: 18)]
-        navigationBar.tintColor = .black;
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white, NSAttributedString.Key.font : UIFont.systemFont(ofSize: 18)]
+        self.navigationBar.barTintColor = UIColor.init(red: 163/255, green: 195/255, blue: 227/255, alpha: 1)
+
+        
     }
     
     

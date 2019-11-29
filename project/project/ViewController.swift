@@ -21,13 +21,17 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func loadData() -> Void {
         
-        let model1 :NSDictionary = ["key":"UITableView使用demo1","control":demo1ViewControl.init()];
+        let model1: NSDictionary = ["key":"demo1简单布局","control":demo1ViewControl.init()];
         let model2: NSDictionary = ["key":"UITableView使用demo2","control":demo2ViewControl.init()];
         let model3: NSDictionary = ["key":"UITableView使用demo3","control":demo3ViewControl.init()];
-        let model4: NSDictionary = ["key":"UITableView使用demo4","control":demo4ViewControl.init()];
-        let model5: NSDictionary = ["key":"UITableView使用demo5","control":demo5ViewControl.init()];
-        let model6: NSDictionary = ["key":"UITableView使用demo6","control":demo6ViewControl.init()];
-        let model7: NSDictionary = ["key":"UITableView使用demo7","control":demo7ViewControl.init()];
+        let model4: NSDictionary = ["key":"UICollectionView使用demo4","control":demo4ViewControl.init()];
+        let model5: NSDictionary = ["key":"demo5-Alamofire","control":demo5ViewControl.init()];
+        let model6: NSDictionary = ["key":"demo6-moya","control":demo6ViewControl.init()];
+        let model7: NSDictionary = ["key":"UITableView RxSwift的简单使用","control":demo7ViewControl.init()];
+        let model8: NSDictionary = ["key":"RxDataSource简单使用","control":demo8ViewControl.init()];
+        let model9: NSDictionary = ["key":"UITableView使用demo9","control":demo9ViewControl.init()];
+        let model10: NSDictionary = ["key":"UITableView使用demo10","control":demo10ViewControl.init()];
+        
         
         var dataSource:Array<NSDictionary> = [NSDictionary]();
         dataSource.append(model1);
@@ -37,6 +41,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         dataSource.append(model5);
         dataSource.append(model6);
         dataSource.append(model7);
+        dataSource.append(model8);
+        dataSource.append(model9);
+        dataSource.append(model10);
+
         self.dataSource = dataSource;
     }
 

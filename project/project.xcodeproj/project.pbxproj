@@ -19,6 +19,18 @@
 		0005B1292301811D00D15AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005B1272301811D00D15AAE /* LaunchScreen.storyboard */; };
 		0005B132230183ED00D15AAE /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005B131230183ED00D15AAE /* Const.swift */; };
 		0005B13523018FBC00D15AAE /* demo1ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005B13423018FBC00D15AAE /* demo1ViewControl.swift */; };
+		00139B102375710D005B0BF0 /* HomeBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139B0F2375710D005B0BF0 /* HomeBannerCell.swift */; };
+		00139B1223757676005B0BF0 /* HomeThreeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139B1123757676005B0BF0 /* HomeThreeButtonCell.swift */; };
+		005E07072383FD7200C68C10 /* Demo8Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005E07062383FD7200C68C10 /* Demo8Cell.swift */; };
+		00823659237CF86A003A5D53 /* HomeCollectionViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00823658237CF86A003A5D53 /* HomeCollectionViewCellTableViewCell.swift */; };
+		0082365B237CFF11003A5D53 /* demo8ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082365A237CFF11003A5D53 /* demo8ViewControl.swift */; };
+		0082365D237CFF1B003A5D53 /* demo9ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082365C237CFF1B003A5D53 /* demo9ViewControl.swift */; };
+		0082365F237CFF20003A5D53 /* demo10ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0082365E237CFF20003A5D53 /* demo10ViewControl.swift */; };
+		008620DD2374193900C60983 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008620DC2374193900C60983 /* UIColor+Extension.swift */; };
+		008620DF23741CD400C60983 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008620DE23741CD400C60983 /* UIView+Extension.swift */; };
+		008620E123742C9D00C60983 /* HomeFunctionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008620E023742C9D00C60983 /* HomeFunctionCell.swift */; };
+		008620E3237546AD00C60983 /* WaterfallFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008620E2237546AD00C60983 /* WaterfallFlowLayout.swift */; };
+		008AA54623697D900025A7A2 /* demo3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AA54523697D900025A7A2 /* demo3Model.swift */; };
 		00BAE70F2302D46200C4974B /* demo2ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE70E2302D46200C4974B /* demo2ViewControl.swift */; };
 		00BAE7112302D46B00C4974B /* demo3ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE7102302D46B00C4974B /* demo3ViewControl.swift */; };
 		00BAE7132302D47300C4974B /* demo4ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE7122302D47300C4974B /* demo4ViewControl.swift */; };
@@ -43,6 +55,18 @@
 		0005B12A2301811D00D15AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0005B131230183ED00D15AAE /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		0005B13423018FBC00D15AAE /* demo1ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo1ViewControl.swift; sourceTree = "<group>"; };
+		00139B0F2375710D005B0BF0 /* HomeBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerCell.swift; sourceTree = "<group>"; };
+		00139B1123757676005B0BF0 /* HomeThreeButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeThreeButtonCell.swift; sourceTree = "<group>"; };
+		005E07062383FD7200C68C10 /* Demo8Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo8Cell.swift; sourceTree = "<group>"; };
+		00823658237CF86A003A5D53 /* HomeCollectionViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		0082365A237CFF11003A5D53 /* demo8ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo8ViewControl.swift; sourceTree = "<group>"; };
+		0082365C237CFF1B003A5D53 /* demo9ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo9ViewControl.swift; sourceTree = "<group>"; };
+		0082365E237CFF20003A5D53 /* demo10ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo10ViewControl.swift; sourceTree = "<group>"; };
+		008620DC2374193900C60983 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		008620DE23741CD400C60983 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		008620E023742C9D00C60983 /* HomeFunctionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFunctionCell.swift; sourceTree = "<group>"; };
+		008620E2237546AD00C60983 /* WaterfallFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallFlowLayout.swift; sourceTree = "<group>"; };
+		008AA54523697D900025A7A2 /* demo3Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo3Model.swift; sourceTree = "<group>"; };
 		00BAE70E2302D46200C4974B /* demo2ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo2ViewControl.swift; sourceTree = "<group>"; };
 		00BAE7102302D46B00C4974B /* demo3ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo3ViewControl.swift; sourceTree = "<group>"; };
 		00BAE7122302D47300C4974B /* demo4ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo4ViewControl.swift; sourceTree = "<group>"; };
@@ -81,6 +105,7 @@
 		0000280623684616005A5F6C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				008AA54523697D900025A7A2 /* demo3Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +113,8 @@
 		0000280723684616005A5F6C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				008620DC2374193900C60983 /* UIColor+Extension.swift */,
+				008620DE23741CD400C60983 /* UIView+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -105,6 +132,12 @@
 			children = (
 				0000280C236848DC005A5F6C /* demo3TableViewCell.swift */,
 				0000281123685D64005A5F6C /* haohaozhuCollectionCell.swift */,
+				008620E023742C9D00C60983 /* HomeFunctionCell.swift */,
+				008620E2237546AD00C60983 /* WaterfallFlowLayout.swift */,
+				00139B0F2375710D005B0BF0 /* HomeBannerCell.swift */,
+				00139B1123757676005B0BF0 /* HomeThreeButtonCell.swift */,
+				00823658237CF86A003A5D53 /* HomeCollectionViewCellTableViewCell.swift */,
+				005E07062383FD7200C68C10 /* Demo8Cell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +194,9 @@
 				00BAE7142302D47C00C4974B /* demo5ViewControl.swift */,
 				00BAE7162302D48400C4974B /* demo6ViewControl.swift */,
 				00BAE7182302D6C800C4974B /* demo7ViewControl.swift */,
+				0082365A237CFF11003A5D53 /* demo8ViewControl.swift */,
+				0082365C237CFF1B003A5D53 /* demo9ViewControl.swift */,
+				0082365E237CFF20003A5D53 /* demo10ViewControl.swift */,
 				00002802236843FA005A5F6C /* DemoNavigationController.swift */,
 			);
 			path = demo;
@@ -302,15 +338,27 @@
 				00BAE7112302D46B00C4974B /* demo3ViewControl.swift in Sources */,
 				0005B11F2301811C00D15AAE /* AppDelegate.swift in Sources */,
 				00BAE70F2302D46200C4974B /* demo2ViewControl.swift in Sources */,
+				008620DD2374193900C60983 /* UIColor+Extension.swift in Sources */,
+				00823659237CF86A003A5D53 /* HomeCollectionViewCellTableViewCell.swift in Sources */,
+				008AA54623697D900025A7A2 /* demo3Model.swift in Sources */,
 				0005B132230183ED00D15AAE /* Const.swift in Sources */,
+				00139B1223757676005B0BF0 /* HomeThreeButtonCell.swift in Sources */,
+				0082365D237CFF1B003A5D53 /* demo9ViewControl.swift in Sources */,
 				00BAE7192302D6C800C4974B /* demo7ViewControl.swift in Sources */,
+				0082365B237CFF11003A5D53 /* demo8ViewControl.swift in Sources */,
 				00BAE7132302D47300C4974B /* demo4ViewControl.swift in Sources */,
+				008620E123742C9D00C60983 /* HomeFunctionCell.swift in Sources */,
 				00BAE7172302D48400C4974B /* demo6ViewControl.swift in Sources */,
 				0000280B23684652005A5F6C /* Global.swift in Sources */,
+				005E07072383FD7200C68C10 /* Demo8Cell.swift in Sources */,
 				0000281223685D64005A5F6C /* haohaozhuCollectionCell.swift in Sources */,
+				008620DF23741CD400C60983 /* UIView+Extension.swift in Sources */,
 				0005B13523018FBC00D15AAE /* demo1ViewControl.swift in Sources */,
 				0000280D236848DC005A5F6C /* demo3TableViewCell.swift in Sources */,
+				00139B102375710D005B0BF0 /* HomeBannerCell.swift in Sources */,
+				008620E3237546AD00C60983 /* WaterfallFlowLayout.swift in Sources */,
 				00BAE7152302D47C00C4974B /* demo5ViewControl.swift in Sources */,
+				0082365F237CFF20003A5D53 /* demo10ViewControl.swift in Sources */,
 				00002803236843FA005A5F6C /* DemoNavigationController.swift in Sources */,
 				00002810236859EE005A5F6C /* HomeApi.swift in Sources */,
 			);

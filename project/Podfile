@@ -9,5 +9,6 @@ pod 'SnapKit'
 pod 'RxSwift'
 pod 'SDWebImage'
 pod 'SwiftTheme'
-
+pod 'Reusable'
+pod 'RxDataSources', '~> 4.0'
 end
