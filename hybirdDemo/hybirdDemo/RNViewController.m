@@ -30,9 +30,27 @@
     RCTRootView *rootView = [[RCTRootView alloc]initWithBundleURL:pathURL moduleName:@"testDemo" initialProperties:params launchOptions:nil];
     rootView.frame = self.view.bounds;
     [self.view addSubview:rootView];
-
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(NavigationPopAction) name:@"NavigateBackNotifcation" object:nil];
 
 }
+
+-(void)NavigationPopAction{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBar.hidden = YES;
+
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBar.hidden = NO;
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:@"NavigateBackNotifcation" object:nil];
+}
+    
 
 /*
 #pragma mark - Navigation

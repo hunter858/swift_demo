@@ -6,17 +6,41 @@ import {
     Dimensions,
     Text,
     Button,
+    NativeModules,
     StatusBar,
   } from 'react-native';
 
 var {ScreenHeight,ScreenWidth} =  Dimensions.get('window');
 import PropTypes from 'prop-types'
 
+
+const ObjectCTool = NativeModules.ObjectCTool;
+
+class NavigtionBackButton extends React.Component{
+
+
+    onPressBackAction(){
+        ObjectCTool.NavigateBack();
+    }
+
+    render (){
+        return (
+        <Button 
+            onPress={()=>{this.onPressBackAction()}}
+            title ='back'
+        />)
+    }
+}
+
+
 export default class RootView extends React.Component {
 
 
     static navigationOptions ={
         title:'首页',
+        headerLeft:(
+            <NavigtionBackButton/>
+        ),
     }
 
     constructor(props){

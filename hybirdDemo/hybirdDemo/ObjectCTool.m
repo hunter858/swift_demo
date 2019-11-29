@@ -78,4 +78,11 @@ RCT_EXPORT_METHOD(requestWithAPI:(NSString *)host path:(NSString*)path success:(
 
 }
 
+RCT_EXPORT_METHOD(NavigateBack){
+    dispatch_async(dispatch_get_main_queue(), ^{
+           [[NSNotificationCenter defaultCenter] postNotificationName:@"NavigateBackNotifcation" object:nil];
+    });
+}
+
+
 @end

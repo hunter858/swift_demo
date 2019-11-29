@@ -18,12 +18,13 @@ export default class Demo5 extends Component {
     static navigationOptions = {
         title: '高阶', // 设置头部标题
         headerStyle:{
-            backgroundColor:'#F7D05E',
+            backgroundColor:'transparent',
         },
-        headerTintColor: '#fff',
-        headerTitleStyle: {
-            fontWeight: 'bold',
-        },
+        headerTransparent:true,
+        // headerTintColor: '#fff',
+        // headerTitleStyle: {
+        //     fontWeight: 'bold',
+        // },
     };
 
     constructor(props){
@@ -42,7 +43,7 @@ export default class Demo5 extends Component {
 
     render (){
         return (
-            <SafeAreaView style={{flex:1}}>
+            <SafeAreaView style={{flex:1,backgroundColor:'#0ff00f'}}>
                 <View style={style.container}>
                     <StatusBar barStyle="dark-content" />
                     <ScrollView style={style.content}>

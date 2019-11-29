@@ -27,6 +27,9 @@ export default class Demo4 extends Component {
         },
     };
 
+
+    
+
     constructor(props){
         super(props);
         this.state = {
@@ -97,14 +100,14 @@ export default class Demo4 extends Component {
     
     testFunc5(){
         ObjectCTool.getAPPVersion((error,value)=>{
-            console.log('getAPPVersion func info :' + JSON.stringify(value));
+            alert('getAPPVersion func info :' + JSON.stringify(value));
         });
     }
     testFunc6(){
         ObjectCTool.requestWithAPI("http://www.baidu.com","/user").then((data)=>{
-            console.log('success: '+JSON.stringify(data));
+            alert('success: '+JSON.stringify(data));
         }).catch((code,message,error)=>{
-            console.log('error: '+JSON.stringify(error));
+            alert('error: '+JSON.stringify(error));
         });
 
     }

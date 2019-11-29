@@ -16,7 +16,6 @@
 @implementation ViewController
 - (IBAction)ButtonClickAction:(id)sender {
     RNViewController *RNControl =[RNViewController new];
-    
     [self.navigationController pushViewController:RNControl animated:nil];
 }
 

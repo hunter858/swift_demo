@@ -1,7 +1,7 @@
 use_frameworks!
 platform :ios, '9.0'
 target 'hybirdDemo' do
-	
+	pod 'AppCenter'
   pod 'FBLazyVector', :path => "./RNComponent/node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "./RNComponent/node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "./RNComponent/node_modules/react-native/Libraries/RCTRequired"
