@@ -79,7 +79,19 @@ class demo8ViewControl: UIViewController {
     }
     
     func setupUI() -> Void {
-        self.view.addSubview(tableView)   
+        self.view.addSubview(tableView)
+        let reloadItem  = UIBarButtonItem.init(title: "刷新", style: .plain, target: self, action:#selector(reloadFunc))
+        let stopItem = UIBarButtonItem.init(title: "暂停", style: .plain, target: self, action:#selector(stopFunc))
+        self.navigationItem.setRightBarButtonItems([reloadItem,stopItem], animated: true)
+        
+    }
+    
+    @objc func stopFunc(){
+        
+    }
+    
+    @objc func reloadFunc(){
+        
     }
     
 

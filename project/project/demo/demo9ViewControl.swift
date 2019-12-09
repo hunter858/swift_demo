@@ -36,11 +36,41 @@ class demo9ViewControl: UIViewController {
     override func viewDidLoad() {
         self.title = "不同cell 同一个tableView"
         self.view.backgroundColor = UIColor.white;
-
+        self.setupUI()
+        self.layoutUI()
+        self.setUpData()
     }
+    
+    let disposeBag = DisposeBag()
+    
+    let dataSource = RxTableViewSectionedReloadDataSource<TypeSection>(
+          
+              configureCell: { dataSource,tableView,indexPath,element in
+                  
+                  switch dataSource[indexPath]{
+                  case  let .TitleImageSectionItem(title,image):
+                      let cell : ImageTableViewCell  = tableView.dequeueReusableCell(for: indexPath)
+                      cell.textLabel?.text = "\(title)";
+                      cell.rightImageView.image = image
+                      return cell
+                  case let .TitleSwitchSectionItem(title,enable):
+                      let cell :SwitchTableViewCell  = tableView.dequeueReusableCell(for: indexPath)
+                      cell.textLabel?.text = "\(title)"
+                      cell.mySwitch.setOn(enable, animated: true)
+                      return cell
+                  }
+               
+              },
+              titleForHeaderInSection: { ds, index in
+                   return ds.sectionModels[index].header
+              }
+        )
+    
     
     let myTableView : UITableView = {
         let tableview = UITableView(frame: CGRect.zero, style: .plain)
+        tableview.register(cellType: SwitchTableViewCell.self)
+        tableview.register(cellType: ImageTableViewCell.self)
         return tableview
     }()
     
@@ -64,35 +94,42 @@ class demo9ViewControl: UIViewController {
         
         
         //创建数据源
-
-        
-        
-        let dataSource = RxTableViewSectionedReloadDataSource<TypeSection>(
-        
-            configureCell: { dataSource,tableView,indexPath,element in
-                
-                switch dataSource[indexPath]{
-                case let .TitleImageSectionItem:
-                    let cell  = tableView.dequeueReusableCell(withIdentifier: "TitleImageSectionItem", for: indexPath)
-                    return cell
-                case .TitleSwitchSectionItem:
-                    let cell  = tableView.dequeueReusableCell(withIdentifier: "TitleSwitchSectionItem", for: indexPath)
-                }
-                
-        })
+        sections.bind(to: myTableView.rx.items(dataSource:dataSource)).disposed(by: disposeBag)
         
     }
     
     func setupUI() -> Void {
         self.view.addSubview(myTableView)
-       
         
     }
     
     func layoutUI() -> Void {
         myTableView.snp.makeConstraints { (make) in
                    make.edges.equalToSuperview()
-            }
+        }
     }
     
+}
+
+
+extension demo9ViewControl : UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        let item = dataSource[indexPath]
+        switch  item {
+        case .TitleSwitchSectionItem(_,_):
+            
+           let cell: SwitchTableViewCell = tableView.dequeueReusableCell(for: indexPath)
+//           return cell.getHeight()
+           return 100
+            
+        case .TitleImageSectionItem(_,_):
+            let cell: ImageTableViewCell = tableView.dequeueReusableCell(for: indexPath)
+//            return cell.getHeight()
+            return 80
+        default :
+            return 64
+        }
+        
+    }
 }

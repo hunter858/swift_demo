@@ -16,8 +16,8 @@
 		0033E33923867ABA0000A6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0033E33823867ABA0000A6AD /* Assets.xcassets */; };
 		0033E33C23867ABA0000A6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0033E33A23867ABA0000A6AD /* LaunchScreen.storyboard */; };
 		0033E33F23867ABA0000A6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0033E33E23867ABA0000A6AD /* main.m */; };
+		0081E59E2391266B007594AC /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 0081E59D2391266A007594AC /* index.jsbundle */; };
 		009A747823869C73005EF971 /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009A747723869C73005EF971 /* RNViewController.m */; };
-		009A74A5238773A5005EF971 /* index.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 009A74A4238773A5005EF971 /* index.jsbundle */; };
 		E255336E2BC4CEEE4A53F4DF /* Pods_hybirdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B46D87084EE3312A8B37C46 /* Pods_hybirdDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +37,9 @@
 		0033E33B23867ABA0000A6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0033E33D23867ABA0000A6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0033E33E23867ABA0000A6AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0081E59D2391266A007594AC /* index.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.jsbundle; sourceTree = SOURCE_ROOT; };
 		009A747623869C73005EF971 /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
 		009A747723869C73005EF971 /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
-		009A74A4238773A5005EF971 /* index.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.jsbundle; sourceTree = SOURCE_ROOT; };
 		32A7F4B7ACAAB1A473B515EC /* Pods-hybirdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hybirdDemo.release.xcconfig"; path = "Target Support Files/Pods-hybirdDemo/Pods-hybirdDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B46D87084EE3312A8B37C46 /* Pods_hybirdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hybirdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB104B2165B1AC67F32603F /* Pods-hybirdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hybirdDemo.debug.xcconfig"; path = "Target Support Files/Pods-hybirdDemo/Pods-hybirdDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				000EBF3D2387DEBD00C51C53 /* assets */,
-				009A74A4238773A5005EF971 /* index.jsbundle */,
 				0033E32C23867AB90000A6AD /* AppDelegate.h */,
 				0033E32D23867AB90000A6AD /* AppDelegate.m */,
 				0033E32F23867AB90000A6AD /* SceneDelegate.h */,
@@ -95,6 +94,7 @@
 				0033E33A23867ABA0000A6AD /* LaunchScreen.storyboard */,
 				0033E33D23867ABA0000A6AD /* Info.plist */,
 				0033E33E23867ABA0000A6AD /* main.m */,
+				0081E59D2391266A007594AC /* index.jsbundle */,
 			);
 			path = hybirdDemo;
 			sourceTree = "<group>";
@@ -176,8 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				000EBF3E2387DEBD00C51C53 /* assets in Resources */,
+				0081E59E2391266B007594AC /* index.jsbundle in Resources */,
 				0033E33C23867ABA0000A6AD /* LaunchScreen.storyboard in Resources */,
-				009A74A5238773A5005EF971 /* index.jsbundle in Resources */,
 				0033E33923867ABA0000A6AD /* Assets.xcassets in Resources */,
 				0033E33723867AB90000A6AD /* Main.storyboard in Resources */,
 			);

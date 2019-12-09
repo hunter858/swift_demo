@@ -11,4 +11,5 @@ pod 'SDWebImage'
 pod 'SwiftTheme'
 pod 'Reusable'
 pod 'RxDataSources', '~> 4.0'
+pod 'Toast-Swift', '~> 5.0.0'
 end

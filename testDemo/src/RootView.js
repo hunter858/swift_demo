@@ -57,6 +57,10 @@ export default class RootView extends React.Component {
     }
     componentWillMount(){
 
+        setTimeout(() => {
+            
+            alert('获取原生传过来的props '+ JSON.stringify(this.props));
+        }, 1000);
         /* 在组件的生命周期中，这个函数只会被执行一次*/
         console.log('componentWillMount -准备加载组件')
     }

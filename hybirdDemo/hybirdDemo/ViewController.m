@@ -14,18 +14,26 @@
 @end
 
 @implementation ViewController
-- (IBAction)ButtonClickAction:(id)sender {
-    RNViewController *RNControl =[RNViewController new];
-    [self.navigationController pushViewController:RNControl animated:nil];
-}
+
 
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor orangeColor]];
+    UIButton *button  = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 150, 40)];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [button setTitle:@"jump to RactNativeContol" forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    button.center = self.view.center;
+    [button addTarget:self action:@selector(buttonAciton:) forControlEvents:UIControlEventTouchUpInside];
     
     // Do any additional setup after loading the view.
 }
 
+-(void)buttonAciton:(UIButton *)button{
+    RNViewController *control =[[RNViewController alloc]init];
+    [self.navigationController pushViewController:control animated:YES];
+}
 
 @end

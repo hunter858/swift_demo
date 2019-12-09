@@ -17,14 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    [self.navigationController setNavigationBarHidden:YES];
-    
-//    NSString *pathString = [[NSBundle mainBundle]pathForResource:@"index.jsbundle" ofType:nil] ;
-    NSString *pathString = @"http://192.168.161.21:8081/index.bundle?platform=ios&dev=true";
-    
-// NSURL *pathURL = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+
+
+    /* 本地jsbundl*/
+    NSString *pathString = [[NSBundle mainBundle]pathForResource:@"index.jsbundle" ofType:nil] ;
     NSURL *pathURL = [NSURL URLWithString:pathString];
+    
+    /* 本地调试*/
+    //    NSString *pathString = @"http://192.168.161.21:8081/index.bundle?platform=ios&dev=true";
+    //    NSURL *pathURL = [NSURL URLWithString:pathString];
+
+    
     NSDictionary *params =@{@"key1":@"123",
                             @"key2":@"321",};
     RCTRootView *rootView = [[RCTRootView alloc]initWithBundleURL:pathURL moduleName:@"testDemo" initialProperties:params launchOptions:nil];
@@ -41,13 +44,13 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.navigationController.navigationBar.hidden = YES;
+   
 
 }
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    self.navigationController.navigationBar.hidden = NO;
+//    self.navigationController.navigationBar.hidden = NO;
     [[NSNotificationCenter defaultCenter]removeObserver:self name:@"NavigateBackNotifcation" object:nil];
 }
     
