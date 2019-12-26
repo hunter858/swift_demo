@@ -47,33 +47,32 @@ class demo8ViewControl: UIViewController {
         self.view.backgroundColor = UIColor.white;
         setupUI()
         layoutUI()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
         
         /* 定义数据源*/
         let sections = Observable.just([MySection(header: "header section", items: ["one row",
-                                                                      "two row",
-                                                                      "three row",
-                                                                      "four row",
-                                                                      "five row"])]);
-        
+                                                                     "two row",
+                                                                     "three row",
+                                                                     "four row",
+                                                                     "five row"])]);
+
         /* 定义RxDataSource */
         let dataSource = RxTableViewSectionedAnimatedDataSource<MySection>(
-            configureCell: {ds,tableView,indexPath,element in
-                let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell") ?? UITableViewCell(style: .default, reuseIdentifier: "tableViewCell")
-                cell.textLabel?.text = "\(indexPath.row) \(element)"
-                return cell
+           configureCell: {ds,tableView,indexPath,element in
+               let cell = tableView.dequeueReusableCell(withIdentifier: "tableViewCell") ?? UITableViewCell(style: .default, reuseIdentifier: "tableViewCell")
+               cell.textLabel?.text = "\(indexPath.row) \(element)"
+               return cell
         })
-    
+
         /* 处理header 信息*/
         dataSource.titleForHeaderInSection = { dataSource,IndexPath in
-            
-            return dataSource.sectionModels[IndexPath].header;
+           
+           return dataSource.sectionModels[IndexPath].header;
         }
-        
+
         sections.bind(to: tableView.rx.items(dataSource: dataSource)).disposed(by: disposeBag)
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
     
         
     }

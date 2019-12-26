@@ -1,5 +1,7 @@
 use_frameworks!
 platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
 target 'project' do
 
 pod 'Alamofire'
@@ -12,4 +14,5 @@ pod 'SwiftTheme'
 pod 'Reusable'
 pod 'RxDataSources', '~> 4.0'
 pod 'Toast-Swift', '~> 5.0.0'
+pod 'Kingfisher'
 end

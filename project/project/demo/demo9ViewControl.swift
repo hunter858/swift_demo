@@ -100,7 +100,6 @@ class demo9ViewControl: UIViewController {
     
     func setupUI() -> Void {
         self.view.addSubview(myTableView)
-        
     }
     
     func layoutUI() -> Void {

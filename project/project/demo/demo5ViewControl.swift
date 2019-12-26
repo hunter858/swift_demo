@@ -50,8 +50,11 @@ class demo5ViewControl: UIViewController {
      
         let requestUrl :String = "http://m.springtour.com/m/app/queryContent?startCityId=61&orderFrom=2&appBuildNo=304&appBuildNo=304&cityId=985&orderFrom=2&positionId=97&springsign=D231C3399C2F01C778BCEAA65AF47653A3ED17CB&startCityId=61"
         Alamofire.request(requestUrl,method: .get,parameters: nil,encoding: URLEncoding.default,headers:  nil).responseJSON { (response) in
+            
+            
             if response.error == nil{
                 // success
+                
                 print("Alamofire请求成功：\(response.result.value ?? "")")
             }else{
                 //fail

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SnapKit
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     
@@ -29,8 +29,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let model6: NSDictionary = ["key":"demo6-moya","control":demo6ViewControl.init()];
         let model7: NSDictionary = ["key":"UITableView RxSwift的简单使用","control":demo7ViewControl.init()];
         let model8: NSDictionary = ["key":"RxDataSource简单使用","control":demo8ViewControl.init()];
-        let model9: NSDictionary = ["key":"UITableView使用demo9","control":demo9ViewControl.init()];
+        let model9: NSDictionary = ["key":"不同cell同一个tableView","control":demo9ViewControl.init()];
         let model10: NSDictionary = ["key":"UITableView使用demo10","control":demo10ViewControl.init()];
+        let model11: NSDictionary = ["key":"仿qq滚动背景","control":demo11ViewControl.init()];
+        let model12: NSDictionary = ["key":"改变导航头的样式","control":demo12ViewControl.init()];
+        let model13: NSDictionary = ["key":"数据模型解析","control":demo13ViewControl.init()];
+        let model14: NSDictionary = ["key":"kingfisher简单使用","control":demo14ViewControl.init()];
+        
         
         
         var dataSource:Array<NSDictionary> = [NSDictionary]();
@@ -44,6 +49,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         dataSource.append(model8);
         dataSource.append(model9);
         dataSource.append(model10);
+        dataSource.append(model11);
+        dataSource.append(model12);
+        dataSource.append(model13);
+        dataSource.append(model14);
 
         self.dataSource = dataSource;
     }
@@ -56,10 +65,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func addTableView() -> Void {
         
-        let tableView = UITableView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: ScreenHeight));
+        let tableView = UITableView(frame: .zero);
         self.view.addSubview(tableView);
         tableView.delegate = self;
         tableView.dataSource = self;
+        tableView.snp_makeConstraints { (make) in
+            make.edges.equalToSuperview()
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
