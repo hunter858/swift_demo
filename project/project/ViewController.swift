@@ -35,6 +35,10 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         let model12: NSDictionary = ["key":"改变导航头的样式","control":demo12ViewControl.init()];
         let model13: NSDictionary = ["key":"数据模型解析","control":demo13ViewControl.init()];
         let model14: NSDictionary = ["key":"kingfisher简单使用","control":demo14ViewControl.init()];
+        let model15: NSDictionary = ["key":"Moya/RxSwift简单实使用","control":demo15ViewControl.init()];
+        let model16: NSDictionary = ["key":"null","control":demo16ViewControl.init()];
+        let model17: NSDictionary = ["key":"null","control":demo17ViewControl.init()];
+        let model18: NSDictionary = ["key":"null","control":demo18ViewControl.init()];
         
         
         
@@ -53,6 +57,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         dataSource.append(model12);
         dataSource.append(model13);
         dataSource.append(model14);
+        dataSource.append(model15);
+        dataSource.append(model16);
+        dataSource.append(model17);
+        dataSource.append(model18);
+        
 
         self.dataSource = dataSource;
     }

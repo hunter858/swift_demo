@@ -19,6 +19,9 @@
 		0005B1292301811D00D15AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0005B1272301811D00D15AAE /* LaunchScreen.storyboard */; };
 		0005B132230183ED00D15AAE /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005B131230183ED00D15AAE /* Const.swift */; };
 		0005B13523018FBC00D15AAE /* demo1ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0005B13423018FBC00D15AAE /* demo1ViewControl.swift */; };
+		000D154123C4656000D989F4 /* HomeApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D154023C4656000D989F4 /* HomeApiModel.swift */; };
+		000D154323C4687200D989F4 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D154223C4687200D989F4 /* NSData+Extension.swift */; };
+		000D154A23C579B600D989F4 /* Moya+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000D154923C579B600D989F4 /* Moya+Extension.swift */; };
 		00139B102375710D005B0BF0 /* HomeBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139B0F2375710D005B0BF0 /* HomeBannerCell.swift */; };
 		00139B1223757676005B0BF0 /* HomeThreeButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00139B1123757676005B0BF0 /* HomeThreeButtonCell.swift */; };
 		00227B26239E384F001C85F8 /* demo11ViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00227B25239E384F001C85F8 /* demo11ViewControl.swift */; };
@@ -66,6 +69,9 @@
 		0005B12A2301811D00D15AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0005B131230183ED00D15AAE /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		0005B13423018FBC00D15AAE /* demo1ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo1ViewControl.swift; sourceTree = "<group>"; };
+		000D154023C4656000D989F4 /* HomeApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiModel.swift; sourceTree = "<group>"; };
+		000D154223C4687200D989F4 /* NSData+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSData+Extension.swift"; sourceTree = "<group>"; };
+		000D154923C579B600D989F4 /* Moya+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moya+Extension.swift"; sourceTree = "<group>"; };
 		00139B0F2375710D005B0BF0 /* HomeBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBannerCell.swift; sourceTree = "<group>"; };
 		00139B1123757676005B0BF0 /* HomeThreeButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeThreeButtonCell.swift; sourceTree = "<group>"; };
 		00227B25239E384F001C85F8 /* demo11ViewControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo11ViewControl.swift; sourceTree = "<group>"; };
@@ -137,6 +143,8 @@
 			children = (
 				008620DC2374193900C60983 /* UIColor+Extension.swift */,
 				008620DE23741CD400C60983 /* UIView+Extension.swift */,
+				000D154223C4687200D989F4 /* NSData+Extension.swift */,
+				000D154923C579B600D989F4 /* Moya+Extension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 			children = (
 				00DA8AD023A223FA0022F164 /* data.json */,
 				0000280F236859EE005A5F6C /* HomeApi.swift */,
+				000D154023C4656000D989F4 /* HomeApiModel.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -381,7 +390,10 @@
 				00227B26239E384F001C85F8 /* demo11ViewControl.swift in Sources */,
 				00227B28239E3858001C85F8 /* demo12ViewControl.swift in Sources */,
 				00227B2A239E3866001C85F8 /* demo13ViewControl.swift in Sources */,
+				000D154A23C579B600D989F4 /* Moya+Extension.swift in Sources */,
+				000D154123C4656000D989F4 /* HomeApiModel.swift in Sources */,
 				0082365D237CFF1B003A5D53 /* demo9ViewControl.swift in Sources */,
+				000D154323C4687200D989F4 /* NSData+Extension.swift in Sources */,
 				00BAE7192302D6C800C4974B /* demo7ViewControl.swift in Sources */,
 				0037AEC123B4AFA1000EDB20 /* demo17ViewControl.swift in Sources */,
 				0082365B237CFF11003A5D53 /* demo8ViewControl.swift in Sources */,
@@ -553,6 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,44 +1,37 @@
 PODS:
-  - Alamofire (4.8.2)
-  - Differentiator (4.0.1)
+  - Alamofire (4.9.1)
+  - Differentiator (3.1.0)
   - Kingfisher (4.10.1)
-  - Moya (13.0.1):
-    - Moya/Core (= 13.0.1)
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
   - Result (4.1.0)
   - Reusable (4.1.0):
     - Reusable/Storyboard (= 4.1.0)
     - Reusable/View (= 4.1.0)
   - Reusable/Storyboard (4.1.0)
   - Reusable/View (4.1.0)
-  - RxCocoa (5.0.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxDataSources (4.0.1):
-    - Differentiator (~> 4.0)
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
-  - RxRelay (5.0.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.0.0)
-  - SDWebImage (5.1.0):
-    - SDWebImage/Core (= 5.1.0)
-  - SDWebImage/Core (5.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
   - SnapKit (4.2.0)
-  - SwiftTheme (0.4.7)
+  - SwiftTheme (0.5.0)
   - SwiftyJSON (5.0.0)
-  - Toast-Swift (5.0.0)
+  - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
-  - Alamofire
   - Kingfisher
-  - Moya
+  - Moya/RxSwift
   - Reusable
-  - RxDataSources (~> 4.0)
+  - RxDataSources
   - RxSwift
-  - SDWebImage
   - SnapKit
   - SwiftTheme
   - SwiftyJSON
@@ -54,31 +47,27 @@ SPEC REPOS:
     - Reusable
     - RxCocoa
     - RxDataSources
-    - RxRelay
     - RxSwift
-    - SDWebImage
     - SnapKit
     - SwiftTheme
     - SwiftyJSON
     - Toast-Swift
 
 SPEC CHECKSUMS:
-  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
-  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
-  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  SwiftTheme: 67bbb51f2ef69570164562376f441655a143399d
+  SwiftTheme: 45a12fe3d600546b99e8e4a52cec9b57eb5b1aec
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
-  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 828425970a6bb692b6d7ca32886ac63a3abcd321
+PODFILE CHECKSUM: a501886efb4467aa6a4bf5792e853198bd8c3a9c
 
 COCOAPODS: 1.8.4
